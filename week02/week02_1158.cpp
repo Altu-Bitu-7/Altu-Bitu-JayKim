@@ -22,8 +22,7 @@ int main(){
       table.pop();
     }  
     cout << table.front();
-    table.pop();
-    
+    table.pop();  
     if (!table.empty())
       cout << ", ";
   }

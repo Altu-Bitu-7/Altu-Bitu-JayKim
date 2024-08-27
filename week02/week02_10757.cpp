@@ -57,7 +57,7 @@ int main() {
 
 
   while (!sumit.empty()) {
-    cout << sumit.top();
+    cout << sumit.top(); 
     sumit.pop();
   }
 
