@@ -33,7 +33,7 @@ int main() {
         //한 줄을 담은 큐 (one)에서, 제일 앞에 있는 문자열을 꺼내고 삭제한다. 
         char cp = one.front();
         one.pop();
- 
+
         //체킹포인트
         if(cp=='(' || cp=='['){
           check.push(cp);
